@@ -7,3 +7,7 @@ complete_item:
     the item.
   fields:
     name: {description: The name of the item to mark as completed., example: Beer}
+remove_item:
+  description: Remove an item from the shopping list.
+  fields:
+    name: {description: The name of the item to mark as completed., example: Beer}
